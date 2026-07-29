@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+    <link rel="stylesheet" href="reg.css">
+</head>
+<body>
+
+    <div class="container">
+        <h2>Student Registration Form</h2>
+
+        <form>
+
+            <label for="name">Name</label><br>
+            <input type="text" id="name" placeholder="Enter your name"><br>
+
+            <label for="enroll">Enrollment Number</label><br>
+            <input type="text" id="enroll" placeholder="Enter enrollment number"><br>
+
+            <label for="email">Email</label><br>
+            <input type="email" id="email" placeholder="Enter your email"><br>
+
+            <label for="password">Password</label><br>
+            <input type="password" id="password" placeholder="Enter password"><br>
+
+            <label>Gender</label>
+            <div class="radio-group">
+                <input type="radio" name="gender" id="male">
+                <label for="male">Male</label>
+
+                <input type="radio" name="gender" id="female">
+                <label for="female">Female</label>
+
+                <input type="radio" name="gender" id="other">
+                <label for="other">Other</label>
+            </div>
+
+            <label for="department">Department</label>
+            <select id="department">
+                <option>Computer Engineering</option>
+                <option>IT Engineering</option>
+                <option>EC Engineering</option>
+                <option>AI/ML Engineering</option>
+            </select><br>
+
+            <label>Hobbies</label>
+            <div class="checkbox-group">
+                <input type="checkbox" id="reading">
+                <label for="reading">Reading</label>
+
+                <input type="checkbox" id="writing">
+                <label for="writing">Writing</label>
+
+                <input type="checkbox" id="sports">
+                <label for="sports">Sports Activity</label>
+            </div>
+
+            <label for="address">Address</label>
+            <textarea id="address" rows="4" placeholder="Enter your address"></textarea>
+
+            <button type="submit">Register</button>
+
+        </form>
+    </div>
+
+</body>
+</html>
